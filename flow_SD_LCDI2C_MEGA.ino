@@ -9,7 +9,7 @@ byte sensorPin1       = 3;
 byte sensorPin2       = 2;
 
 // YF-DN40 the hall-effect outputs Hz = 0.54 L/min pulses 
-float Calibration = 0.54;
+float Calibration = 79.46;
 
 volatile byte pulseCount_1;
 
