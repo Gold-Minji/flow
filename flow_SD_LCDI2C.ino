@@ -13,7 +13,7 @@ LiquidCrystal_I2C lcd(0x3f,16,2);  // set the LCD address to 0x27 for a 16 chars
 
 // The hall-effect flow sensor outputs approximately 4.5 pulses per second per
 // litre/minute of flow.
-float calibrationFactor = 1; // 제품설명서에 98이라 나와있는데 실험통해 바꿔야할 
+float calibrationFactor = 79.46; // 제품설명서에 98이라 나와있는데 실험통해 바꿔야함 ->79.46
 
 volatile byte pulseCount;  
 
